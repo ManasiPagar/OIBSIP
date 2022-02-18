@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem + 4vw);
+    --bgcolor: #a4b0be;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.section1
+{
+  min-height: 100vh; 
+  background: linear-gradient(black,transparent), url("http://wallpapersdsc.net/wp-content/uploads/2016/09/Purple-Flower-HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1rem;
+    color: white;
+}
+.navbar u1{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.hero-text{
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text a{
+    color:white;
+    background-color: var(--bgcolor);
+    font-weight: 900;
+    font-size: var(--text);
+    padding: 0.8rem 1rem;
+    margin: 0.8rem auto;
+    display: block;
+    transition: opacity 250ms linear;
+}
+.hero-text a:hover{
+    opacity: 0.8;
+}
+.hero-text h2{
+    font-size: var(--head);
+}
+.hero-text a{
+    font-size: var(--text);
+}
+.hero-text p{
+    font-size: 3rem;
+}
